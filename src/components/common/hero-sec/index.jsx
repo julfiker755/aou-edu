@@ -84,14 +84,18 @@ export default function HeroSec() {
                                     <TableCell className="border-r border-gray-300">I</TableCell>
                                     <TableCell className="border-r border-gray-300">
                                         <ul className="list-disc list-inside space-y-1 text-sm">
-                                            <li>Attendance Participation (4/5)</li>
-                                            <li>TMA 01 (9/15)</li>
-                                            <li>Mid Term Assessment (5/30)</li>
-                                            <li>Final Exam (0/50)</li>
+                                            <li> Attendance Participation (4/5)</li>
+                                            <li>TMA 01 (10/15)</li>
+                                            <li>Mid Term Assessment (19/30)</li>
                                         </ul>
                                     </TableCell>
                                     <TableCell >---</TableCell>
+                                   
+
+
                                 </TableRow>
+
+
 
                                 <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
                                     <TableCell className="font-medium border-r border-gray-300">MGT201</TableCell>
@@ -100,9 +104,8 @@ export default function HeroSec() {
                                     <TableCell className="border-r border-gray-300">
                                         <ul className="list-disc list-inside space-y-1 text-sm">
                                             <li>Attendance Participation (5/5)</li>
-                                            <li>TMA 01 (7.5/15)</li>
-                                            <li>Mid Term Assessment (9.5/30)</li>
-                                            <li>Final Exam (20.5/50)</li>
+                                            <li>TMA 01 (9/15)</li>
+                                            <li>Mid Term Assessment (16/30)</li>
                                         </ul>
                                     </TableCell>
                                     <TableCell>---</TableCell>
