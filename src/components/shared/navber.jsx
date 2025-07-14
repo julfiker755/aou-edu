@@ -56,8 +56,8 @@ export default function Navber() {
         <div className="flex items-center shadow-lg p-1 rounded-md">
           <UserRound size={30} />
           <ul className="ml-2">
-            <li className="font-medium">#20521065</li>
-            <li className="text-xs">Abobakr Abdullah Alawi Mutahar</li>
+            <li className="font-medium">#20520538</li>
+            <li className="text-xs">Lamar Saeed Omar Alhaddad</li>
           </ul>
         </div>
         <div className="flex items-center space-x-1">
