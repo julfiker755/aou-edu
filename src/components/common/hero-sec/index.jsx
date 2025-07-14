@@ -80,43 +80,30 @@ export default function HeroSec() {
 
                         <TableBody>
                             <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
-                                <TableCell className="font-medium border-r border-gray-300">GR118</TableCell>
+                                <TableCell className="font-medium border-r border-gray-300">ACCT202</TableCell>
                                 <TableCell className="border-r border-gray-300">3</TableCell>
-                                <TableCell className="border-r border-gray-300">C</TableCell>
+                                <TableCell className="border-r border-gray-300">I</TableCell>
                                 <TableCell className="border-r border-gray-300">
                                     <ul className="list-disc list-inside space-y-1 text-sm">
-                                        <li>TMA 01 (7/20)</li>
-                                        <li>Mid Term Assessment (19/30)</li>
-                                        <li>Final Exam (32/50)</li>
+                                        <li>Attendance Participation (4/5)</li>
+                                        <li>TMA 01 (9/15)</li>
+                                        <li>Mid Term Assessment (5/30)</li>
+                                        <li>Final Exam (0/50)</li>
                                     </ul>
                                 </TableCell>
                                 <TableCell>---</TableCell>
                             </TableRow>
 
                             <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
-                                <TableCell className="font-medium border-r border-gray-300">B392</TableCell>
-                                <TableCell className="border-r border-gray-300">8</TableCell>
-                                <TableCell className="border-r border-gray-300">B</TableCell>
+                                <TableCell className="font-medium border-r border-gray-300">MGT201</TableCell>
+                                <TableCell className="border-r border-gray-300">3</TableCell>
+                                <TableCell className="border-r border-gray-300">F</TableCell>
                                 <TableCell className="border-r border-gray-300">
                                     <ul className="list-disc list-inside space-y-1 text-sm">
                                         <li>Attendance Participation (5/5)</li>
-                                        <li>TMA 01 (12/15)</li>
-                                        <li>Mid Term Assessment (19/30)</li>
-                                        <li>Final Exam (38.5/50)</li>
-                                    </ul>
-                                </TableCell>
-                                <TableCell>---</TableCell>
-                            </TableRow>
-
-                            <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
-                                <TableCell className="font-medium border-r border-gray-300">BAS400</TableCell>
-                                <TableCell className="border-r border-gray-300">4</TableCell>
-                                <TableCell className="border-r border-gray-300">A</TableCell>
-                                <TableCell className="border-r border-gray-300">
-                                    <ul className="list-disc list-inside space-y-1 text-sm">
-                                        <li>Presentation (20/20)</li>
-                                        <li>Field supervisor evaluation (50/50)</li>
-                                        <li>Final Report (26.4/30)</li>
+                                        <li>TMA 01 (7.5/15)</li>
+                                        <li>Mid Term Assessment (9.5/30)</li>
+                                        <li>Final Exam (20.5/50)</li>
                                     </ul>
                                 </TableCell>
                                 <TableCell>---</TableCell>
@@ -127,7 +114,7 @@ export default function HeroSec() {
 
                 </div>
 
-                <div className="text-sm text-muted-foreground mt-3">3 Records - Showing 1 to 3</div>
+                <div className="text-sm text-muted-foreground mt-3">2 Records - Showing 1 to 2</div>
                  </div>
               
                 {/* Info Alert */}
@@ -135,10 +122,10 @@ export default function HeroSec() {
                     <AlertDescription className="gap-2 flex items-center">
                         <Info size={30} className="text-blue-600" />
                         <p>
-                            Please note that no credits are displayed for Part I courses
+                        Please note that no credits are displayed for Part I courses
                             <br />
-                            To view the GPA points value legend for the letter grades  {" "}
-                            <span href="#" className="text-blue-600 underline">
+                            To view the GPA points value legend for the letter grades {" "}
+                            <span href="#" className="text-primary underline">
                                 Click here
                             </span>
                         </p>
