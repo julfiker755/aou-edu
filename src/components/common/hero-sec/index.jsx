@@ -81,7 +81,7 @@ export default function HeroSec() {
                                 <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
                                     <TableCell className="font-medium border-r border-gray-300">ACCT202</TableCell>
                                     <TableCell className="border-r border-gray-300">3</TableCell>
-                                    <TableCell className="border-r border-gray-300">I</TableCell>
+                                    <TableCell className="border-r border-gray-300">Grade Pending</TableCell>
                                     <TableCell className="border-r border-gray-300">
                                         <ul className="list-disc list-inside space-y-1 text-sm">
                                             <li> Attendance Participation (4/5)</li>
@@ -100,7 +100,7 @@ export default function HeroSec() {
                                 <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
                                     <TableCell className="font-medium border-r border-gray-300">MGT201</TableCell>
                                     <TableCell className="border-r border-gray-300">3</TableCell>
-                                    <TableCell className="border-r border-gray-300">F</TableCell>
+                                    <TableCell className="border-r border-gray-300">Grade Pending</TableCell>
                                     <TableCell className="border-r border-gray-300">
                                         <ul className="list-disc list-inside space-y-1 text-sm">
                                             <li>Attendance Participation (5/5)</li>
