@@ -46,9 +46,14 @@ export default function HeroSec() {
                                 <SelectValue placeholder="Select semester" />
                             </SelectTrigger>
                             <SelectContent>
+                                <SelectItem value="second-2024-2025">Second 2024/2025</SelectItem>
+                                <SelectItem value="first-2024-2025">First 2024/2025</SelectItem>
                                 <SelectItem value="second-2023-2024">Second 2023/2024</SelectItem>
                                 <SelectItem value="first-2023-2024">First 2023/2024</SelectItem>
-                                <SelectItem value="summer-2023-2024">Summer 2023/2024</SelectItem>
+                                <SelectItem value="summer-2022-2023">Summer 2022/2023</SelectItem>
+                                <SelectItem value="first-2022-2023">First 2022/2023</SelectItem>
+                                <SelectItem value="second-2021-2022">Second 2021/2022</SelectItem>
+                                <SelectItem value="first-2021-2022">First 2021/2022</SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
