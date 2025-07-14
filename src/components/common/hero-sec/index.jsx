@@ -62,7 +62,7 @@ export default function HeroSec() {
                                     <TableHead className="w-[120px] text-black font-semibold border-r border-gray-300">
                                         Course Code <ArrowUpDown className="inline-block h-4 w-4 ml-1" />
                                     </TableHead>
-                                    <TableHead className="w-[90px] text-black font-semibold border-r border-gray-300">
+                                    <TableHead className="w-[100px] text-black font-semibold border-r border-gray-300">
                                         Credit Hours <ArrowUpDown className="inline-block h-4 w-4 ml-1" />
                                     </TableHead>
                                     <TableHead className="w-[80px] text-black font-semibold border-r border-gray-300">
