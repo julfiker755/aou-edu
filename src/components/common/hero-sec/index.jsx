@@ -9,7 +9,7 @@ import Link from "next/link"
 
 export default function HeroSec() {
     return (
-        <div className="max-w-7xl mx-auto py-10">
+        <div className="max-w-7xl mx-auto lg:py-17 xl:py-18">
             <div className="flex justify-between p-3 w-11/12 lg:w-full items-center">
                 <h1 className="text-2xl font-bold flex items-center">
                     Grades <LinkIcon className="h-5 w-5 ml-2 text-gray-500" />
