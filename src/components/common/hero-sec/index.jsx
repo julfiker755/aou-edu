@@ -35,13 +35,13 @@ export default function HeroSec() {
             </div>
             <Card className="p-6 rounded-lg space-y-2 shadow-none">
                 <div className="flex items-end space-x-4 mb-3">
-                    <div className="flex flex-wrap  items-center space-y-3 lg:space-y-0 lg:space-x-3">
+                    <div className="flex flex-wrap items-center space-y-3 lg:space-y-0 lg:space-x-3">
                         <div>
                             <label htmlFor="academic-year" className="text-base font-medium mb-1">
                                 Academic Year/Semester <span className="text-red-500">*</span>
                             </label>
                         </div>
-                        <Select defaultValue="second-2023-2024">
+                        <Select defaultValue="second-2024-2025">
                             <SelectTrigger id="academic-year" className="w-[200px]">
                                 <SelectValue placeholder="Select semester" />
                             </SelectTrigger>
@@ -50,77 +50,78 @@ export default function HeroSec() {
                             </SelectContent>
                         </Select>
                     </div>
+
                     <Button className="bg-[#002060] hover:bg-[#002060] text-white px-6 py-2">View Grades</Button>
                 </div>
 
-                 <div>
-                 <div className="border border-gray-300 rounded-md overflow-hidden">
-                    <Table className="w-full">
-                        <TableHeader className="bg-gray-100 h-[60px]">
-                            <TableRow className="border-b border-gray-300 ">
-                                <TableHead className="w-[120px] text-black font-semibold border-r border-gray-300">
-                                    Course Code <ArrowUpDown className="inline-block h-4 w-4 ml-1" />
-                                </TableHead>
-                                <TableHead className="w-[100px] text-black font-semibold border-r border-gray-300">
-                                    Credit Hours <ArrowUpDown className="inline-block h-4 w-4 ml-1" />
-                                </TableHead>
-                                <TableHead className="w-[80px] text-black font-semibold border-r border-gray-300">
-                                    Grade <ArrowUpDown className="inline-block h-4 w-4 ml-1" />
-                                </TableHead>
-                                <TableHead className="text-black font-semibold border-r border-gray-300">
-                                    Grade Details
-                                </TableHead>
-                                <TableHead className="w-[150px] text-black font-semibold">
-                                    Notes
-                                </TableHead>
-                            </TableRow>
-                        </TableHeader>
+                <div>
+                    <div className="border border-gray-300 rounded-md overflow-hidden">
+                        <Table className="w-full">
+                            <TableHeader className="bg-gray-100 h-[60px]">
+                                <TableRow className="border-b border-gray-300 ">
+                                    <TableHead className="w-[120px] text-black font-semibold border-r border-gray-300">
+                                        Course Code <ArrowUpDown className="inline-block h-4 w-4 ml-1" />
+                                    </TableHead>
+                                    <TableHead className="w-[90px] text-black font-semibold border-r border-gray-300">
+                                        Credit Hours <ArrowUpDown className="inline-block h-4 w-4 ml-1" />
+                                    </TableHead>
+                                    <TableHead className="w-[80px] text-black font-semibold border-r border-gray-300">
+                                        Grade <ArrowUpDown className="inline-block h-4 w-4 ml-1" />
+                                    </TableHead>
+                                    <TableHead className="text-black font-semibold border-r border-gray-300">
+                                        Grade Details
+                                    </TableHead>
+                                    <TableHead className="w-[150px] lg:w-[550px] text-black font-semibold">
+                                        Notes
+                                    </TableHead>
+                                </TableRow>
+                            </TableHeader>
 
-                        <TableBody>
-                            <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
-                                <TableCell className="font-medium border-r border-gray-300">ACCT202</TableCell>
-                                <TableCell className="border-r border-gray-300">3</TableCell>
-                                <TableCell className="border-r border-gray-300">I</TableCell>
-                                <TableCell className="border-r border-gray-300">
-                                    <ul className="list-disc list-inside space-y-1 text-sm">
-                                        <li>Attendance Participation (4/5)</li>
-                                        <li>TMA 01 (9/15)</li>
-                                        <li>Mid Term Assessment (5/30)</li>
-                                        <li>Final Exam (0/50)</li>
-                                    </ul>
-                                </TableCell>
-                                <TableCell>---</TableCell>
-                            </TableRow>
+                            <TableBody>
+                                <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
+                                    <TableCell className="font-medium border-r border-gray-300">ACCT202</TableCell>
+                                    <TableCell className="border-r border-gray-300">3</TableCell>
+                                    <TableCell className="border-r border-gray-300">I</TableCell>
+                                    <TableCell className="border-r border-gray-300">
+                                        <ul className="list-disc list-inside space-y-1 text-sm">
+                                            <li>Attendance Participation (4/5)</li>
+                                            <li>TMA 01 (9/15)</li>
+                                            <li>Mid Term Assessment (5/30)</li>
+                                            <li>Final Exam (0/50)</li>
+                                        </ul>
+                                    </TableCell>
+                                    <TableCell >---</TableCell>
+                                </TableRow>
 
-                            <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
-                                <TableCell className="font-medium border-r border-gray-300">MGT201</TableCell>
-                                <TableCell className="border-r border-gray-300">3</TableCell>
-                                <TableCell className="border-r border-gray-300">F</TableCell>
-                                <TableCell className="border-r border-gray-300">
-                                    <ul className="list-disc list-inside space-y-1 text-sm">
-                                        <li>Attendance Participation (5/5)</li>
-                                        <li>TMA 01 (7.5/15)</li>
-                                        <li>Mid Term Assessment (9.5/30)</li>
-                                        <li>Final Exam (20.5/50)</li>
-                                    </ul>
-                                </TableCell>
-                                <TableCell>---</TableCell>
-                            </TableRow>
-                        </TableBody>
-                    </Table>
+                                <TableRow className="bg-white border-b border-gray-300 hover:bg-[#6db1e2] hover:text-white">
+                                    <TableCell className="font-medium border-r border-gray-300">MGT201</TableCell>
+                                    <TableCell className="border-r border-gray-300">3</TableCell>
+                                    <TableCell className="border-r border-gray-300">F</TableCell>
+                                    <TableCell className="border-r border-gray-300">
+                                        <ul className="list-disc list-inside space-y-1 text-sm">
+                                            <li>Attendance Participation (5/5)</li>
+                                            <li>TMA 01 (7.5/15)</li>
+                                            <li>Mid Term Assessment (9.5/30)</li>
+                                            <li>Final Exam (20.5/50)</li>
+                                        </ul>
+                                    </TableCell>
+                                    <TableCell>---</TableCell>
+                                </TableRow>
+                            </TableBody>
+                        </Table>
 
 
+                    </div>
+
+                    <div className="text-sm text-muted-foreground mt-3">2 Records - Showing 1 to 2</div>
                 </div>
 
-                <div className="text-sm text-muted-foreground mt-3">2 Records - Showing 1 to 2</div>
-                 </div>
-              
                 {/* Info Alert */}
                 <Alert className="bg-blue-50 border-blue-200 text-blue-800">
                     <AlertDescription className="gap-2 flex items-center">
                         <Info size={30} className="text-blue-600" />
                         <p>
-                        Please note that no credits are displayed for Part I courses
+                            Please note that no credits are displayed for Part I courses
                             <br />
                             To view the GPA points value legend for the letter grades {" "}
                             <span href="#" className="text-primary underline">
