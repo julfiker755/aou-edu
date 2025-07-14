@@ -88,8 +88,8 @@ export default function Navber() {
         <div className="flex items-center gap-2 pt-4 border-t border-white/20">
           <UserRound size={32} />
           <div>
-            <p className="text-sm font-medium">#20521065</p>
-            <p className="text-xs">Abobakr Abdullah Alawi Mutahar</p>
+            <p className="text-sm font-medium">#20520538</p>
+            <p className="text-xs">Lamar Saeed Omar Alhaddad</p>
           </div>
         </div>
 
